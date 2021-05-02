@@ -1,6 +1,7 @@
 hi 1
 hello 2
 
+
 Github는 Working Directory
 Git Bash Here
 git init :: WD 선언
@@ -19,3 +20,8 @@ git reset :: 되돌림
 --mixed HEAD^ :: add 한거까지만 되돌림
 --soft HEAD^ :: commit 한거까지만 되돌림
 HEAD는 최신버전을, ^개수는 몇개 되돌릴지 의미.
+
+
+git remote add origin https://... :: origin이라는 이름으로 내 깃허브 인식해줘
+git branch -M main :: master 브랜치를 main으로 이름바꿈
+git push -u origin main :: origin에다가 main을 push해라

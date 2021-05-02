@@ -1,6 +1,3 @@
-hi 1
-hello 2
-
 add, commit -m, push -u 이후에는 그냥 commit -am, push
 
 Git Bash Here

@@ -11,5 +11,5 @@ git add . :: 현재 폴더 안 모든 변경사항을 SA로
 git commit -m "메세지" :: SA의 파일을 버전화함
 git log :: commit 한 기록 불러오기
 
-
 WD에서 파일수정하면 자동으로 인식함.
+git commit -am "메세지" :: add commit 동시에. 한번이라도 commit했으면.

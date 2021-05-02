@@ -1,8 +1,0 @@
-hi 1
-
-
-Github는 Working Directory
-Git Bash Here
-git init :: WD 선언
-git status :: 현재 폴더의 상태 확인
-git add "파일명" :: WD->Staging Area로

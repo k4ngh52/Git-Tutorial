@@ -2,9 +2,9 @@ hi 1
 hello 2
 
 
-Github는 Working Directory
+
 Git Bash Here
-git init :: WD 선언
+git init :: Working Directory 선언
 git status :: 현재 폴더의 상태 확인
 git add "파일명.확장자" :: WD->Staging Area로
 git rm --cached "파일명.확장자" :: SA->WD로
@@ -14,13 +14,13 @@ git log :: commit 한 기록 불러오기
 
 WD에서 파일수정하면 자동으로 인식함.
 git commit -am "메세지" :: add commit 동시에. 한번이라도 commit했으면.
+git push :: 버전 업데이트
 
 git reset :: 되돌림
 --hard HEAD^ :: 수정본 통째로 되돌림
 --mixed HEAD^ :: add 한거까지만 되돌림
 --soft HEAD^ :: commit 한거까지만 되돌림
 HEAD는 최신버전을, ^개수는 몇개 되돌릴지 의미.
-
 
 git remote add origin https://... :: origin이라는 이름으로 내 깃허브 인식해줘
 git branch -M main :: master 브랜치를 main으로 이름바꿈
